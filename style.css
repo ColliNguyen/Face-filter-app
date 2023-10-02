@@ -1,0 +1,31 @@
+body{
+    background-image: url('blue-paper.png')
+}
+
+
+        body {
+            background-image: url('blue-paper.png'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0); 
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #canvas {
+            border: 2px solid white;
+            margin-top: 20px;
+        }
+
+        #saveButton {
+            margin-top: 20px;
+        }
